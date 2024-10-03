@@ -18,7 +18,7 @@
 <!--            <property name="hibernate.connection.provider_class" value="com.zaxxer.hikari.hibernate.HikariConnectionProvider" />-->
             <property name="hibernate.connection.provider_class" value="org.hibernate.hikaricp.internal.HikariCPConnectionProvider" />
             <property name="hibernate.hikari.dataSourceClassName" value="com.mysql.cj.jdbc.MysqlDataSource" />
-            <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://localhost:3306/school6jaxhiberdb?serverTimezone=UTC" />
+            <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://localhost:3306/school6snapdb?serverTimezone=UTC" />
             <property name="hibernate.hikari.dataSource.user" value="hiber6user" />
             <property name="hibernate.hikari.dataSource.password" value="12345" />
             <property name="hibernate.hikari.maximumPoolSize" value="10" />
