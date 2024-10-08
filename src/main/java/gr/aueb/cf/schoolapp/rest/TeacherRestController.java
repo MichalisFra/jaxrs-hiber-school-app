@@ -40,7 +40,7 @@ public class TeacherRestController {
         List<String> errors = ValidatorUtil.validateDTO(insertDTO);
         if (!errors.isEmpty()) {
 //            return Response.status(Response.Status.BAD_REQUEST).entity(errors).build();
-            throw new EntityInvalidArgumentException("Teacher", String.join(", ", errors));
+            throw new EntityInvalidArgumentException("Teacher", String.join("\n", errors));
         }
 
 
